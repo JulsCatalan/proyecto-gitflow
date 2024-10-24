@@ -1,12 +1,49 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inicio</title>
+    <title>Index</title>
+    <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
-    <a href="#">Login</a>
-    <a href="#">Registro</a>
+    <header>
+        <h1>Compañía Ficticia</h1>
+        <nav>
+            <a href="#inicio">Inicio</a>
+            <a href="#nosotros">Nosotros</a>
+            <a href="#mision">Misión</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+    </header>
+
+    <section id="inicio">
+        <h2>Bienvenidos a Compañía Ficticia</h2>
+        <p>Ofrecemos las mejores soluciones para todas tus necesidades ficticias. Nuestro equipo está dedicado a crear productos de calidad que no existen pero suenan geniales.</p>
+    </section>
+
+    <section id="nosotros">
+        <h2>Nosotros</h2>
+        <p>Somos una empresa con más de 100 años de experiencia en el mundo de la ficción. Nos especializamos en servicios inexistentes pero totalmente increíbles, garantizando siempre la máxima satisfacción de nuestros clientes imaginarios.</p>
+    </section>
+
+    <section id="mision">
+        <h2>Misión</h2>
+        <p>Nuestra misión es simple: hacer del mundo ficticio un lugar mejor. Creamos soluciones innovadoras que nadie necesita, pero que todos desearían tener. Nuestros productos y servicios están diseñados con la más alta tecnología de la imaginación.</p>
+    </section>
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <form>
+            <input type="text" id="contact_name" placeholder="Nombre completo" required><br>
+            <input type="email" id="contact_email" placeholder="Correo electrónico" required><br>
+            <textarea id="contact_message" placeholder="Tu mensaje" rows="5" required></textarea><br>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Compañía Ficticia. Todos los derechos reservados.</p>
+    </footer>
 </body>
 </html>
