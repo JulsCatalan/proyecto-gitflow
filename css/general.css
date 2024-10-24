@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+    font-family: sans-serif;
+    font-size: 62.5%;
+}
+
+
+h1{
+    font-size: 4rem;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.general_form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10vh;
+    gap: 4rem;
+    width: 50%;
+    border-radius: 2rem;
+    background-color: lightgrey;
+    margin: 15vh 0
+}
+
+.general_form input{
+    width: 50%;
+    padding: 1.5rem;
+    font-size: 1.5rem;
+}
+
+.general_form button{
+    padding: 2rem 3rem;
+    border-radius: 1rem;
+    font-size: 2rem;
+}
